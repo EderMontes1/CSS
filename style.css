@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: capriola;
+    color: black;
+   
+   background-image: url(/pics/bg.jpg);
+    
+    
+}
+
+.header {
+    
+    background-color: #5d6dcb;
+    color: #f590e8;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.logo_nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.logo_nav_container img{
+   border-radius: 500px;
+}
+
+.logo_nombre {
+    margin-right: auto;
+    font-size: 30pt;
+}
+
+.container_nav {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.nav_menu li{
+    color: #a10990;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    padding: 2rem ;
+ }
+ 
+.main{
+    padding-top: 13rem;
+}
+
+.titulo_catalogo{
+    text-align: center;
+}
+
+.container_descripcion{
+    padding: 2rem;
+    text-align: center;
+    padding-left: 2rem;
+    font-size: 14pt;
+}
+
+.grid_container{
+    
+    padding: 3rem;
+    display: grid;
+    
+    grid-template-columns: repeat(7, 1fr)
+        
+    /*grid-template-columns: auto auto auto auto auto auto auto;*/
+}
+
+.grid_container div{
+    
+    border: 1px solid #59056a;
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    
+}
+
+.regulares{
+    grid-column:1/8 ;
+    
+    font-weight: bold;
+    background-color: rgb(128, 193, 250);
+}
+
+.glow{
+    grid-column:1/8 ;
+    
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+.liquidaciones{
+    grid-column:1/8 ;
+    
+    font-weight: bold;
+    background-color: rgb(236, 178, 6);
+}
+
+.sku{
+    font-weight: bold;
+}
+
+.nombre{
+    font-weight: bold;
+}
+
+.disponible{
+    font-weight: bold;
+}
+
+.imagen{
+    font-weight: bold;
+}
+
+.precio{
+    font-weight: bold;
+}
+
+.trespiezas{
+    font-weight: bold;
+}
+
+.status{
+    font-weight: bold;
+}
+
+.footer{
+    background-color:#5d6dcb;
+    color: #a10990;
+    text-align: left;
+    font-size: 12pt;    
+    position: fixed;
+    padding-left: 8pt;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 25px;
+}
